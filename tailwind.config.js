@@ -11,7 +11,8 @@ module.exports = {
           3: "#262A2D",
         },
         gold: {
-          1: "#F4BF31"
+          1: "#F4BF31",
+          2: "#542D00"
         },
         iconColor: {
           1: "#C6CACD"
@@ -19,6 +20,9 @@ module.exports = {
         gradient: {
           1: "#FFFFFF66",
           2: "#EEEDED33"
+        },
+        dark: {
+          1: "#121619"
         }
       },
     },
