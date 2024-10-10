@@ -4,7 +4,7 @@ import { HeaderComponent, FooterComponent } from './components';
 
 function App() {
   return (
-    <div className="flex flex-col h-full bg-black">
+    <div className="flex flex-col h-full bg-black gap-10">
       <HeaderComponent />
       <FooterComponent />
     </div>
