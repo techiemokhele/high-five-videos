@@ -11,7 +11,8 @@ module.exports = {
           3: "#262A2D",
         },
         gold: {
-          1: "#F4BF31"
+          1: "#F4BF31",
+          2: "#542D00"
         },
         iconColor: {
           1: "#C6CACD"
