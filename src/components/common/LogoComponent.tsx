@@ -2,7 +2,7 @@ import { LogoProps } from "../../types";
 
 const LogoComponent = ({ half = false }: LogoProps) => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center cursor-pointer">
       <h1 className="text-white font-thin lg:text-2xl text-lg ml-2 flex items-center">
         <span className="font-bold">HI</span>GH FI
         <span className="font-bold">VE</span>
