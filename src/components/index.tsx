@@ -4,4 +4,5 @@ export { default as TextInputComponent } from "./common/TextInputComponent";
 
 export { default as HeaderComponent } from "./section/HeaderComponent";
 export { default as CallToActionComponent } from "./section/CallToActionComponent";
+export { default as SubscribeComponent } from "./section/SubscribeComponent";
 export { default as FooterComponent } from "./section/FooterComponent";

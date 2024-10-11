@@ -11,10 +11,11 @@ export type LogoProps = {
 };
 
 export interface CallToActionProps {
+  avatar?: string;
   firstTitle: string;
   secondTitle: string;
   firstDescription: string;
-  secondDescription: string;
+  secondDescription?: string;
   buttonAction: () => void;
 }
 
