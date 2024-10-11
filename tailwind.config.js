@@ -9,6 +9,7 @@ module.exports = {
           1: "#B4CAD5",
           2: "#B4CAD580",
           3: "#262A2D",
+          4: "#262A2D94"
         },
         gold: {
           1: "#F4BF31",
