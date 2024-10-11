@@ -11,12 +11,12 @@ const CallToActionComponent = ({
   buttonAction,
 }: CallToActionProps) => {
   return (
-    <section
-      id="#callToAction"
+    <div
       className="relative flex flex-col items-center justify-center py-12 min-h-[250px] md:min-h-[320px] bg-cover lg:bg-stretch bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${ctaImage})` }}
     >
-      <div className="absolute inset-0  flex flex-col items-center justify-center gap-4 sm:gap-6">
+      
+      <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 sm:gap-6">
         <h1 className="text-white text-2xl lg:text-3xl text-center">
           {firstTitle} <span className="text-gold-1">{secondTitle}</span>
         </h1>
@@ -30,7 +30,7 @@ const CallToActionComponent = ({
           fill={true}
         />
       </div>
-    </section>
+    </div>
   );
 };
 
