@@ -1,14 +1,13 @@
-import React from "react";
 import { CallToActionProps } from "../../types";
 import bgImage from "../../assets/images/Pattern.png";
 import ButtonComponent from "../common/ButtonComponent";
 
-const SubscribeComponent: React.FC<CallToActionProps> = ({
+const SubscribeComponent = ({
   firstTitle,
   secondTitle,
   firstDescription,
   buttonAction,
-}) => {
+}: CallToActionProps) => {
   return (
     <section
       id="subscribe"

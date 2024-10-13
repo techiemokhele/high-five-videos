@@ -20,7 +20,9 @@ module.exports = {
         },
         gradient: {
           1: "#FFFFFF66",
-          2: "#EEEDED33"
+          2: "#EEEDED33",
+          3: "#B4CAD514",
+          4: "#FFFFFF00"
         },
         dark: {
           1: "#121619"
