@@ -10,6 +10,17 @@ export type LogoProps = {
   half?: boolean;
 };
 
+export interface CallToActionProps {
+  avatar?: string;
+  firstTitle: string;
+  firstSubTitle?: string;
+  secondTitle: string;
+  secondSubTitle?: string;
+  firstDescription: string;
+  secondDescription?: string;
+  buttonAction: () => void;
+}
+
 export interface SocialIcon {
   link: string;
   icon: IconType;

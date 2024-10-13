@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { BsCart2 } from "react-icons/bs";
 
+import bgImage from "../../assets/images/Pattern.png";
 import { navigationData } from "../../data/navData";
 import LogoComponent from "../common/LogoComponent";
 import ButtonComponent from "../common/ButtonComponent";
@@ -31,9 +32,13 @@ const TopNavComponent = () => {
   };
 
   return (
-    <nav className="bg-black shadow-md sticky top-0 z-50">
+    <nav
+      className="bg-gradient-to-r from-gray-700 via-gray-900 to-black shadow-md sticky top-0 z-50"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
+      <div className="absolute inset-0 bg-black bg-opacity-90"></div>
       {/* Desktop Menu */}
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div className="relative container z-10 mx-auto px-4 py-3 flex justify-between items-center">
         <LogoComponent />
 
         {/* Desktop Navigation Links */}
@@ -51,7 +56,7 @@ const TopNavComponent = () => {
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex space-x-4 items-center">
-          <BsCart2 color="#fff" size={20} />
+          <BsCart2 color="#B4CAD5" size={20} />
           <ButtonComponent
             fill={false}
             text="Sign Up"
@@ -112,8 +117,11 @@ const TopNavComponent = () => {
 
           {/* Sign Up and Login Buttons at the Bottom */}
           <div className="flex flex-col space-y-4 mt-6">
-            <div className="text-white text-sm gap-2 flex flex-row items-center">
-              <BsCart2 color="text-white" size={20} />
+            <div
+              onClick={handleLinkClick}
+              className="text-white text-sm gap-2 flex flex-row items-center cursor-pointer"
+            >
+              <BsCart2 color="#B4CAD5" size={20} />
               <p>Cart</p>
             </div>
             <ButtonComponent
