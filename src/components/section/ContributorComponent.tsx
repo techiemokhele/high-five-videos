@@ -17,7 +17,7 @@ const ContributorComponent = ({
     >
       <div className="absolute inset-0 bg-black bg-opacity-90"></div>
       <div className=" mx-12 relative z-10 p-6 flex flex-col md:flex-row lg:flex-row items-center justify-between w-full max-w-6xl gap-4 md:gap-6 lg:gap-6 bg-gradient-to-r from-gradient-4 via-gradient-2 to-gradient-3 rounded-lg bg-opacity-50 border-[0.5px] border-gray-2">
-        <div className="flex flex-col w-full md:w-1/2 lg:w-1/2 px-8 md:px-0 lg:px-0">
+        <div className="flex flex-col w-full md:w-1/2 lg:w-1/2">
           <h2 className="text-white text-2xl lg:text-3xl">
             {firstTitle}{" "}
             <span className="text-yellow-400">{firstSubTitle}</span>

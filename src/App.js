@@ -1,5 +1,5 @@
 import React from 'react';
-import { CallToActionComponent, ContributorComponent, FooterComponent, HeaderComponent, SubscribeComponent } from './components';
+import { CallToActionComponent, ContributorComponent, FooterComponent, HeaderComponent, SubscribeComponent, TopLandingComponent } from './components';
 
 
 function App() {
@@ -17,7 +17,11 @@ function App() {
 
   return (
     <div className="flex flex-col h-full bg-black">
-      <HeaderComponent />
+      <div className="flex flex-col">
+        <HeaderComponent />
+        <div className="border-t-[0.2px] border-gray-2"></div>
+        <TopLandingComponent />
+      </div>
 
       <div className="flex flex-col">
         <ContributorComponent

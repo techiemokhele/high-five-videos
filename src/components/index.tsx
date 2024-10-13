@@ -3,6 +3,7 @@ export { default as LogoComponent } from "./common/LogoComponent";
 export { default as TextInputComponent } from "./common/TextInputComponent";
 
 export { default as HeaderComponent } from "./section/HeaderComponent";
+export { default as TopLandingComponent } from "./section/TopLandingComponent";
 export { default as ContributorComponent } from "./section/ContributorComponent";
 export { default as CallToActionComponent } from "./section/CallToActionComponent";
 export { default as SubscribeComponent } from "./section/SubscribeComponent";
