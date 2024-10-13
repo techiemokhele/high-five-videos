@@ -1,68 +1,77 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CubeZoo - React Frontend Developer Test
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+The goal of this project was to accurately recreate the provided design using **React** along with **Tailwind CSS** for styling. Paid close attention to details like spacing, fonts, and colors, and aimed to deliver a pixel-perfect or near-perfect match of the Figma design across various screen sizes (mobile, tablet, desktop).
 
-### `npm start`
+## Assets & Design
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Figma Design**: [Web Design FE Test - 10 October 2024](https://www.figma.com/design/1goWtiL3MnhoSRhIWkBJFK/Web-Design-FE-Test-10-October-2024?node-id=0-1&t=n7UigCj40SBqpk2d-1)
+- **Asset Files (Images, Icons, etc.)**: [Download Here](https://filetransfer.io/data-package/H8be0Muf#link)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Task Overview
 
-### `npm test`
+1. **Set Up the Project**:
+   - Create a **React** project using any boilerplate of your choice.
+   - Install and configure **Tailwind CSS** as your preferred styling framework.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Implement the Design**:
+   - Recreate the page layout and styles exactly as shown in the Figma design.
+   - Ensure responsive behavior, adjusting layouts to fit various screen sizes (mobile, tablet, and desktop).
+   - Use the provided assets from the asset files link (images, icons, etc.).
+   - Implement hover effects and other interactive features where required.
 
-### `npm run build`
+3. **Responsive Design**:
+   - Ensure that the layout looks good across different device sizes, matching the responsive guidelines in the Figma file.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Use Best Practices**:
+   - Write reusable and well-structured **React** components.
+   - Ensure your code is clean, maintainable, and well-commented.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+5. **Optional**:
+   - If you are familiar with libraries like **React Router** or **Redux** for state management, feel free to integrate them, although they are not required for this test.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Design Details
 
-### `npm run eject`
+Pay special attention to:
+- **Spacing**: Match the spacing specified in the design system.
+- **Typography**: Use the exact fonts and sizes as indicated in the Figma file.
+- **Color Palette**: Follow the color palette provided in the design system section of the Figma file.
+- **Interactions**: Apply hover states and interactions where appropriate, as shown in the design.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Submission Instructions
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Submit your completed project via a **GitHub repository**.
+- Ensure all dependencies are listed in a `package.json` file.
+- Include a `README.md` file with clear instructions on how to run the project locally.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## How to Run the Project
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Prerequisites
+- **Node.js** (version >= 14)
+- **npm** or **yarn**
 
-## Learn More
+### Steps to Run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/high-five-videos.git
+   cd high-five-videos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Install dependencies:
 
-### Code Splitting
+  ```bash
+  npm install
+  # or
+  yarn install
+  ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+3. Run the development server:
 
-### Analyzing the Bundle Size
+  ```bash
+    npm start
+    # or
+    yarn start
+  ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+4. Open your browser and navigate to http://localhost:3000 to view the app.
